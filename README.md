@@ -1,4 +1,4 @@
-📸 # Image Processing On FPGA
+# Image Processing On FPGA 📸
 
 This is the official repository for the Image Processing on FPGA project created at IvLabs, VNIT Nagpur. The aim of this project is to develop a custom, hardware-accelerated photo viewer and image processor that runs on an FPGA development board.
 
