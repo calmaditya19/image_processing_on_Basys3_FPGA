@@ -95,19 +95,25 @@ The project includes steps for behavioral simulation and hardware testing:
  ## Results
 
  **Grayscale**
+ 
  ![](media/grayscale.gif)
 
  **Grayscale + Inversion**
+ 
  ![](media/inversion+grayscale.gif)
  
  **RGB Channel**
+ 
 ![](media/RGB.gif)
 
  **RGB Channel + Inversion**
+ 
 ![](media/RGB+inversion.gif)
 
  **Laplacian Edge Detection**
+ 
 ![](media/Laplacian_edge_detection.gif)
 
  **Sobel (V-Edge + H-Edge) Detection**
+ 
 ![](Sobel_V-Edge+H-Edge_detection.gif)
