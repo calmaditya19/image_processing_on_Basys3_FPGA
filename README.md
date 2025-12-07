@@ -72,6 +72,7 @@ The core functions are built using several interconnected Verilog modules:
 
 
 **Top_Module:** Instantiates and connects all the submodules, managing memory addresses and providing the final VGA output signals.
+
 **Equipments Used**
 ![Equipments Used](media/equipments.png)
 
