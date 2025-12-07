@@ -1,9 +1,9 @@
-📸 #Image Processing On FPGA
+📸 # Image Processing On FPGA
 
 This is the official repository for the Image Processing on FPGA project created at IvLabs, VNIT Nagpur. The aim of this project is to develop a custom, hardware-accelerated photo viewer and image processor that runs on an FPGA development board.
 
 
-##Project Overview
+## Project Overview
 
 The system takes a digital image from a computer, saves it in the FPGA’s internal memory, applies various filters, and sends the outcome to a VGA monitor.
 
@@ -35,7 +35,7 @@ Key Functionality
 
 **Tools and Technologies**
 
-##Category Component/Language Details
+## Category Component/Language Details
 
 Hardware Basys 3 FPGA Board
 
@@ -59,7 +59,7 @@ For data transmission and video display, respectively.
 
 
 
-##RTL Design Modules
+## RTL Design Modules
 
 The core functions are built using several interconnected Verilog modules:
 
@@ -95,7 +95,7 @@ The core functions are built using several interconnected Verilog modules:
 
 
 
-##Testing and Verification
+## Testing and Verification
 
 The project includes steps for behavioral simulation and hardware testing:
 
