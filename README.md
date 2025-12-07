@@ -36,24 +36,7 @@ Key Functionality
 
 # Tools and Technologies
 
-## Category               Component/Language                 Details
-
-Hardware                  Basys 3 FPGA Board                 Target board 
-                                                             (Xilinx Artix-7, xc7a35t-1).
-
-HDL                       Verilog                            Used for all Register-Transfer
-                                                             Level (RTL) design.
-
-Software                  AMD Vivado Design Suite            For synthesis, implementation
-                                                             and simulation.
-
-PC Scripts                Python (OpenCV, PySerial)          Used for image resizing,
-                                                             RGB sampling, and sending pixel
-                                                             data via UART.
-
-Protocols                 UART & VGA                         For data transmission and
-                                                             video display, respectively.
-
+![](media/components.png)
 
 
 ## RTL Design Modules
@@ -90,7 +73,7 @@ The core functions are built using several interconnected Verilog modules:
 
 **Top_Module:** Instantiates and connects all the submodules, managing memory addresses and providing the final VGA output signals.
 
-
+![Equipments Used](media/equipments.png)
 
 ## Testing and Verification
 
