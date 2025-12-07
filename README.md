@@ -93,6 +93,8 @@ The project includes steps for behavioral simulation and hardware testing:
  For further information visit([HackMD](https://hackmd.io/@Ash-Fpga/SJgLLpiOe-l))
 
  ## Results
+ 
+![](media/blur-edge_detection-sharpening.png)
 
  **Grayscale**
  
