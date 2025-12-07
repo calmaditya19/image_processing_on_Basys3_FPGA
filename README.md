@@ -15,11 +15,11 @@ Key Functionality
 
 **Image Input:** A Python program on a PC transmits QVGA (320x240) image data (RGB444) through USB-to-UART (Universal Asynchronous Receiver-Transmitter).
 
-
+![Use of Python](media/use_of_python.png)
 
 **On-Chip Storage:** The FPGA employs a Dual-Port Block RAM (BRAM) for storing the entire image frame.
 
-![Use of Python](media/use_of_python.png)
+
 
 **Display & Filtering:** A custom VGA Controller retrieves the saved image and shows it on a monitor (640x480 @ 60 Hz), scaling the QVGA image to fit the screen.
 
