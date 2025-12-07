@@ -23,6 +23,7 @@ Key Functionality
 
 **Display & Filtering:** A custom VGA Controller retrieves the saved image and shows it on a monitor (640x480 @ 60 Hz), scaling the QVGA image to fit the screen.
 
+![Block diagram](media/Block_digram_of_project.png)
 
 
 **Mode Control:** A physical display switch changes the state of the FPGA: * Switch OFF: Receive Mode (the FPGA listens to UART and writes data to the memory). * Switch ON: Display Mode (the FPGA stops receiving data and continuously shows the stored image).
