@@ -36,27 +36,23 @@ Key Functionality
 
 # Tools and Technologies
 
-## Category Component/Language Details
+## Category               Component/Language                 Details
 
-Hardware Basys 3 FPGA Board
+Hardware                  Basys 3 FPGA Board                 Target board 
+                                                             (Xilinx Artix-7, xc7a35t-1).
 
-Target board (Xilinx Artix-7, xc7a35t-1).
+HDL                       Verilog                            Used for all Register-Transfer
+                                                             Level (RTL) design.
 
-HDL Verilog
+Software                  AMD Vivado Design Suite            For synthesis, implementation
+                                                             and simulation.
 
-Used for all Register-Transfer Level (RTL) design.
+PC Scripts                Python (OpenCV, PySerial)          Used for image resizing,
+                                                             RGB sampling, and sending pixel
+                                                             data via UART.
 
-Software AMD Vivado Design Suite
-
-For synthesis, implementation, and simulation.
-
-PC Scripts Python (OpenCV, PySerial)
-
-Used for image resizing, RGB sampling, and sending pixel data via UART.
-
-Protocols UART & VGA
-
-For data transmission and video display, respectively.
+Protocols                 UART & VGA                         For data transmission and
+                                                             video display, respectively.
 
 
 
@@ -82,7 +78,7 @@ The core functions are built using several interconnected Verilog modules:
 
 **VGA_Controller:** Generates timing signals (VSync, HSync, Pixel_Clock) necessary for the 640x480 @ 60 Hz display standard.
 
-
+![](media/VGA_controller.png)
 
 **LineBuffer:** Implements FIFO (First-In, First-Out) registers to temporarily store neighboring pixels (a 3x3 window) needed for convolution operations.
 
