@@ -1,9 +1,9 @@
-📸 **Image Processing On FPGA**
+📸 #Image Processing On FPGA
 
 This is the official repository for the Image Processing on FPGA project created at IvLabs, VNIT Nagpur. The aim of this project is to develop a custom, hardware-accelerated photo viewer and image processor that runs on an FPGA development board.
 
 
-**Project Overview**
+##Project Overview
 
 The system takes a digital image from a computer, saves it in the FPGA’s internal memory, applies various filters, and sends the outcome to a VGA monitor.
 
@@ -19,7 +19,7 @@ Key Functionality
 
 **On-Chip Storage:** The FPGA employs a Dual-Port Block RAM (BRAM) for storing the entire image frame.
 
-
+![Use of Python]([media/Spiral_Trajectory.gif](https://github.com/calmaditya19/image_processing_on_Basys3_FPGA/blob/main/media/use%20of%20python.png))
 
 **Display & Filtering:** A custom VGA Controller retrieves the saved image and shows it on a monitor (640x480 @ 60 Hz), scaling the QVGA image to fit the screen.
 
@@ -35,7 +35,7 @@ Key Functionality
 
 **Tools and Technologies**
 
-Category Component/Language Details
+##Category Component/Language Details
 
 Hardware Basys 3 FPGA Board
 
@@ -59,7 +59,7 @@ For data transmission and video display, respectively.
 
 
 
-**RTL Design Modules**
+##RTL Design Modules
 
 The core functions are built using several interconnected Verilog modules:
 
@@ -95,7 +95,7 @@ The core functions are built using several interconnected Verilog modules:
 
 
 
-**Testing and Verification**
+##Testing and Verification
 
 The project includes steps for behavioral simulation and hardware testing:
 
