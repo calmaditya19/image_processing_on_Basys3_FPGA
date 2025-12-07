@@ -19,7 +19,7 @@ Key Functionality
 
 **On-Chip Storage:** The FPGA employs a Dual-Port Block RAM (BRAM) for storing the entire image frame.
 
-![Use of Python]([media/Spiral_Trajectory.gif](https://github.com/calmaditya19/image_processing_on_Basys3_FPGA/blob/main/media/use%20of%20python.png))
+![Use of Python]([https://github.com/calmaditya19/image_processing_on_Basys3_FPGA/blob/main/media/use%20of%20python.png])
 
 **Display & Filtering:** A custom VGA Controller retrieves the saved image and shows it on a monitor (640x480 @ 60 Hz), scaling the QVGA image to fit the screen.
 
