@@ -7,5 +7,4 @@ This project uses **Verilog** to implement a hardware-accelerated **Image Proces
 
  The system can switch between **Display Mode** (for continuous viewing and filtering) and **Receive Mode** (for data upload) using a physical switch.  The design makes use of **AMD Vivado** and **Python (OpenCV/PySerial)** for data transmission and image resizing.
 
- For further information visit
-  ![HackMD]([Target URL](https://hackmd.io/@Ash-Fpga/SJgLLpiOe-l))
+ For further information visit([HackMD](https://hackmd.io/@Ash-Fpga/SJgLLpiOe-l))
