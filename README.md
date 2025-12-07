@@ -32,9 +32,9 @@ Key Functionality
 
 **Filter Application:** Various filters, including Convolution (like Blur), can be applied simultaneously using dedicated hardware logic controlled by slide switches.
 
+![Kernels](media/kernels.png)
 
-
-**Tools and Technologies**
+# Tools and Technologies
 
 ## Category Component/Language Details
 
